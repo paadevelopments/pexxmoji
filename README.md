@@ -132,7 +132,7 @@ let text = pexxmoji.mojiparser( $, $('#element that holds the rendered pexxmoji'
 
 ##
 # Release History
-*  Initial [ v1.0.0 ]
+*  Initial [ v1.0.1 ]
 
 ##
 # License
