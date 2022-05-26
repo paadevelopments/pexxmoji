@@ -60,7 +60,7 @@ import pexxmoji from 'pexxmoji';
 var emoji = false;
 
 function show_moji(event){
-emoji = new pexxmoji.pexxmoji( $, window, $('.pexx_input:eq(0)'), $('.pexx_e_tray:eq(0)') );
+   emoji = new pexxmoji.pexxmoji( $, window, $('.pexx_input:eq(0)'), $('.pexx_e_tray:eq(0)') );
 }
 
 function sub_extrc(event){
