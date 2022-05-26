@@ -2,7 +2,7 @@
 Render uniform emoji views across all OS platforms.
 
 ## Demo Sample
-### Emijo Input & Tray
+### Emoji Input & Tray
 ![](/rep_res/lib_srn_sh1.png)
 
 ### Rendering Variants
