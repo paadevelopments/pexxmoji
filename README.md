@@ -32,7 +32,7 @@ Render uniform emoji views across all OS platforms.
 </head>
 ```
 ## 2. Via NPM
-**Step 1.** Install both pexxalert and jquery via Node CLI.
+**Step 1.** Install both pexxmoji and jquery via Node CLI.
 ```
 npm i pexxmoji jquery
 ```
