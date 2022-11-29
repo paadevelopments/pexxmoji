@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PexxMoji Demo</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Cache-control" content="no-cache">
+	<meta name="theme-color" content="#F29D85">
+	<meta name="msapplication-navbutton-color" content="#F29D85">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#F29D85">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="./bootstrap.css">
+	<link rel="stylesheet" href="./lib/pexxmoji.emo_set.a.css">
+	<link rel="stylesheet" href="./lib/pexxmoji.emo_set.b.css">
+	<link rel="stylesheet" href="./lib/pexxmoji.emo_set.c.css">
+	<link rel="stylesheet" href="./lib/pexxmoji.emo_set.d.css">
+	<link rel="stylesheet" href="./lib/pexxmoji.emo_set.e.css">
+	<link rel="stylesheet" href="./lib/pexxmoji.emo_set.f.css">
+	<link rel="stylesheet" href="./lib/pexxmoji.emo_set.g.css">
+	<link rel="stylesheet" href="./lib/pexxmoji.emo_set.h.css">
+	<link rel="stylesheet" href="./lib/pexxmoji.emo_set.i.css">
+	<link rel="stylesheet" href="./lib/pexxmoji.min.css">
+	<link rel="stylesheet" href="demo.css">
+	<script src="./jquery.js"></script>
+	<script src="./lib/pexxmoji.umd.min.js"></script>
+</head>
+<body onclick="pm_sf(this, event)">
+<div class="px_splash" style="position:absolute;top:0;left:0;width:100%;height:100%;
+	z-index:999999999999999;background:#F29D85;color:#FFFFFF;display:flex;
+	justify-content:center;align-items:center;flex-direction:column;"><span
+	style="font-size:70px;">👨‍💻</span><div>Getting Ready...</div>
+</div>
+<div class="px_a1 px_ps">
+	<div class="px_ps_a">
+		<div class="px_a1_a">
+			<div class="px_a1_a_a">
+				<div class="px_a1_a_a_a"><div><i class="pm pm-1F4681F3FD200D1F4BB"
+					style="font-size:50px" data-pm-co="👨🏽‍💻"></i></div><b>PexxMoji</b></div>
+				<div class="px_a1_a_a_b">An Emoji Library In Javascript</div>
+			</div>
+			<div class="px_a1_a_b">
+				<div class="px_a1_a_b_b">
+					<div class="px_mj_ar">
+						<div class="px_mj_ar_a">
+							<div class="px_mj_ar_a_1">
+								<div class="px_mj_ar_a_1_a">
+									<div class="px_mj_ar_a_1_a_1">Type something with emoji</div>
+									<div class="px_mj_ar_a_1_a_2" contenteditable="true"
+									onfocus="pm_ci(this)" onblur="pm_ci(this)" oninput="pm_ci(this)"></div>
+								</div>
+								<button onclick="pm_eo(this)" class="px_mj_ar_a_1_b">
+									<svg viewBox="0 0 510 510" fill-rule="evenodd"><path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm80 168c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm-160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm194.8 170.2C334.3 380.4 292.5 400 248 400s-86.3-19.6-114.8-53.8c-13.6-16.3 11-36.7 24.6-20.5 22.4 26.9 55.2 42.2 90.2 42.2s67.8-15.4 90.2-42.2c13.4-16.2 38.1 4.2 24.6 20.5z"/>
+									</svg>
+								</button>
+							</div>
+							<button onclick="pm_in(this)" class="px_mj_ar_a_2">
+								<svg viewBox="0 0 510 510" fill-rule="evenodd"><path fill="currentColor" d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/>
+								</svg>
+							</button>
+						</div>
+						<div class="px_mj_ar_b" style="display:none;"></div>
+						<div class="px_mj_ar_c" style="display:none;">
+							<p><b>In-App Rendering: </b><span></span></p>
+							<p><b>Raw UTF-8 String: </b><span></span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="px_a1_a_c">
+				<span>Written By: <b>Paa</b></span><br>
+				<span>Dependencies: <b class="ckb" onclick="pm_li('https://jquery.org')">JQuery</b></span><br>
+				<span>License: <b class="ckb" onclick="pm_li('https://github.com/paadevelopments/pexxmoji/blob/master/LICENSE')">MIT</b></span><br>
+			</div>
+		</div>
+		<div class="px_a1_b"><button onclick="pm_li('https://github.com/paadevelopments/pexxmoji')">Integration & Usage</button></div>
+	</div>
+</div>
+</body>
+<script src="./demo.js"></script>
+</html>
